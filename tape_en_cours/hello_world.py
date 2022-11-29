@@ -18,9 +18,9 @@
 #         res = str(nombre)
 #     print(res)
 
-for nombre in range(1, 101):
-    res = "fizz" * int(nombre % 3 == 0) + "buzz" * int(nombre % 5 == 0) or str(nombre)
-    print(res)
+# for nombre in range(1, 101):
+#     res = "fizz" * int(nombre % 3 == 0) + "buzz" * int(nombre % 5 == 0) or str(nombre)
+#     print(res)
 
 # for n in range(100):
 #     if n % 3 == 0:
