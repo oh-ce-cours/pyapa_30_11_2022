@@ -18,7 +18,7 @@ def fizzbuzz_2():
         res = ""
         if est_divisible_par(nombre, 3):
             res += "fizz"
-        if nombre % 5 == 0:
+        if est_divisible_par(nombre, 5):
             res += "buzz"
         if not res:
             res = str(nombre)
