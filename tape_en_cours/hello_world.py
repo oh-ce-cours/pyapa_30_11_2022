@@ -16,7 +16,7 @@ def est_divisible_par(numerateur, denominateur):
 def fizzbuzz_2():
     for nombre in range(1, 101):
         res = ""
-        if nombre % 3 == 0:
+        if est_divisible_par(nombre, 3):
             res += "fizz"
         if nombre % 5 == 0:
             res += "buzz"
