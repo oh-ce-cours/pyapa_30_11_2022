@@ -22,8 +22,7 @@ for n in range(100):
     if n % 3 == 0:
         if n % 5 == 0:
             print("fizzbuzz")
-        else:
-            print("fizz")
+        print("fizz")
     elif n % 5 == 0:
         print("buzz")
     else:
