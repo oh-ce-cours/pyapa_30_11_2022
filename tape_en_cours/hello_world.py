@@ -9,6 +9,10 @@
 #         print(nombre)
 
 
+def est_divisible_par(numerateur, denominateur):
+    return numerateur % denominateur == 0
+
+
 def fizzbuzz_2():
     for nombre in range(1, 101):
         res = ""
