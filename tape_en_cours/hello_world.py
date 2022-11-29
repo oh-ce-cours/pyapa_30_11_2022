@@ -22,8 +22,7 @@ for nombre in range(1, 101):
     res = ""
     res += "fizz" * int(nombre % 3 == 0)
     res += "buzz" * int(nombre % 5 == 0)
-    if not res:
-        res = str(nombre)
+    res = res or str(nombre)
     print(res)
 
 # for n in range(100):
