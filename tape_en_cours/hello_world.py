@@ -14,7 +14,6 @@ for nombre in range(1, 101):
         res += "fizz"
     if nombre % 5 == 0:
         res += "buzz"
-    if res:
-        print(res)
-    else:
-        print(nombre)
+    if not res:
+        res = str(nombre)
+    print(res)
