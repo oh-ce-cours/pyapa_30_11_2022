@@ -15,14 +15,18 @@ def est_divisible_par(numerateur, denominateur):
 
 def fizzbuzz_2():
     for nombre in range(1, 101):
-        res = ""
-        if est_divisible_par(nombre, 3):
-            res += "fizz"
-        if est_divisible_par(nombre, 5):
-            res += "buzz"
-        if not res:
-            res = str(nombre)
-        print(res)
+        regle_fizz_buzz_2(nombre)
+
+
+def regle_fizz_buzz_2(nombre):
+    res = ""
+    if est_divisible_par(nombre, 3):
+        res += "fizz"
+    if est_divisible_par(nombre, 5):
+        res += "buzz"
+    if not res:
+        res = str(nombre)
+    return res
 
 
 # for nombre in range(1, 101):
