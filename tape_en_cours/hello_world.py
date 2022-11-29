@@ -19,9 +19,6 @@ def fizzbuzz_2():
         print(res)
 
 
-fizzbuzz_2()
-
-
 def regle_fizz_buzz_2(nombre):
     res = ""
     if est_divisible_par(nombre, 3):
@@ -31,6 +28,9 @@ def regle_fizz_buzz_2(nombre):
     if not res:
         res = str(nombre)
     return res
+
+
+fizzbuzz_2()
 
 
 # for nombre in range(1, 101):
