@@ -10,8 +10,8 @@
 
 for nombre in range(1, 101):
     res = ""
-    if res % 3 == 0:
+    if nombre % 3 == 0:
         res += "fizz"
-    if res % 5 == 0:
+    if nombre % 5 == 0:
         res += "buzz"
     print(res)
