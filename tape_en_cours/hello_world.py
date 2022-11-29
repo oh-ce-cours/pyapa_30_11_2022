@@ -15,7 +15,8 @@ def est_divisible_par(numerateur, denominateur):
 
 def fizzbuzz_2():
     for nombre in range(1, 101):
-        regle_fizz_buzz_2(nombre)
+        res = regle_fizz_buzz_2(nombre)
+        print(res)
 
 
 def regle_fizz_buzz_2(nombre):
