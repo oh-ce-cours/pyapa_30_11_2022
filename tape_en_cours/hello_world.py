@@ -31,7 +31,7 @@ def fizzbuzz_2():
 
 def regle_fizz_buzz_2(nombre):
     res = ""
-    if est_divisible_par([], []):
+    if est_divisible_par("toto", "tata"):
         res += "fizz"
     if est_divisible_par(nombre, 5):
         res += "buzz"
