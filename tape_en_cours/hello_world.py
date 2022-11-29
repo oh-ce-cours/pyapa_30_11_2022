@@ -20,8 +20,7 @@
 
 for nombre in range(1, 101):
     res = ""
-    if nombre % 3 == 0:
-        res += "fizz"
+    res += "fizz" * (nombre % 3 == 0)
     if nombre % 5 == 0:
         res += "buzz"
     if not res:
