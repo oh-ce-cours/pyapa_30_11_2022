@@ -29,7 +29,7 @@ def fizzbuzz_2():
         print(res)
 
 
-def regle_fizz_buzz_2(nombre:int):
+def regle_fizz_buzz_2(nombre: int) -> str:
     res = ""
     if est_divisible_par("toto", "tata"):
         res += "fizz"
