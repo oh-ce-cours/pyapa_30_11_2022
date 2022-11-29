@@ -37,7 +37,7 @@ def regle_fizz_buzz_2(nombre: int) -> str:
         res += "buzz"
     if not res:
         res = str(nombre)
-    return res
+    return 3
 
 
 fizzbuzz_2()
