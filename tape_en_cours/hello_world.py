@@ -10,6 +10,9 @@
 
 
 def est_divisible_par(numerateur, denominateur):
+    """Permet de savoir si un nombre est divisible par un autre.
+    
+    """
     return numerateur % denominateur == 0
 
 
