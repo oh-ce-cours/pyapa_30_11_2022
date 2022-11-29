@@ -10,6 +10,16 @@
 
 
 def est_divisible_par(numerateur: int, denominateur: int) -> bool:
+    """Permet de savoir si un nombre est divisible par un autre.
+
+    Paramètres:
+        numerateur: int : le numérateur
+        denominateur : int : le dénominateur
+
+    Retourne :
+        booléen : est-ce que les nombres sont divisibles
+    """
+
     return numerateur % denominateur == 0
 
 
