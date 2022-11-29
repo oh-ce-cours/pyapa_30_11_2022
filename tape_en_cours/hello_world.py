@@ -1,9 +1,17 @@
+# for nombre in range(1, 101):
+#     if nombre % 3 == 0 and nombre % 5 == 0:
+#         print("fizzbuzz")
+#     elif nombre % 3 == 0:
+#         print("fizz")
+#     elif nombre % 5 == 0:
+#         print("buzz")
+#     else:
+#         print(nombre)
+
 for nombre in range(1, 101):
-    if nombre % 3 == 0 and nombre % 5 == 0:
-        print("fizzbuzz")
-    elif nombre % 3 == 0:
-        print("fizz")
-    elif nombre % 5 == 0:
-        print("buzz")
-    else:
-        print(nombre)
+    res = ""
+    if res % 3 == 0:
+        res += "fizz"
+    if res % 5 == 0:
+        res += "buzz"
+    print(res)
