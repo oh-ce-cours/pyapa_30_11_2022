@@ -29,7 +29,7 @@ def fizzbuzz_2():
         print(res)
 
 
-def regle_fizz_buzz_2(nombre: int) -> None:
+def regle_fizz_buzz_2(nombre: int) -> str:
     res = ""
     if est_divisible_par(nombre, 3):
         res += "fizz"
