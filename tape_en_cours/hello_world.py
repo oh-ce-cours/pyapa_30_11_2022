@@ -40,8 +40,7 @@ def regle_fizz_buzz_2(nombre: int) -> str:
     return res
 
 
-ma_liste = map(regle_fizz_buzz_2, range(1, 101))
-print("\n".join(ma_liste))
+print("\n".join(map(regle_fizz_buzz_2, range(1, 101))))
 # for nombre in range(1, 101):
 #     res = "fizz" * int(nombre % 3 == 0) + "buzz" * int(nombre % 5 == 0) or str(nombre)
 #     print(res)
