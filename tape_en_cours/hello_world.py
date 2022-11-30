@@ -42,7 +42,7 @@ def regle_fizz_buzz_2(nombre: int) -> str:
 
 fizzbuzz_2()
 
-
+regle_fizz_buzz_2("toto")
 # for nombre in range(1, 101):
 #     res = "fizz" * int(nombre % 3 == 0) + "buzz" * int(nombre % 5 == 0) or str(nombre)
 #     print(res)
