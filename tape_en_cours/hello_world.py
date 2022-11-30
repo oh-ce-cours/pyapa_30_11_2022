@@ -37,8 +37,7 @@ def regle_fizz_buzz_2(nombre: int) -> None:
         res += "buzz"
     if not res:
         res = str(nombre)
-    print(res)
-    # return res
+    return res
 
 
 ma_liste = list(map(regle_fizz_buzz_2, range(1, 101)))
